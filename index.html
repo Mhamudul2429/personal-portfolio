@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Super Porfolio</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<script src="https://kit.fontawesome.com/bdf5d08964.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!--	Header Start  -->
+	<div class="top-section">
+		<header class="header-section">
+		<div class="header">
+			<div class="header-left">
+				<p class="brand-title">
+					<b>Super Folio</b>
+				</p>
+			</div>
+			<div class="header-right">
+					<nav class="navbar">
+						<a href="#about-section" class="nav-items">About</a>
+						<a href="#service-section" class="nav-items">Services</a>
+						<a href="#skill-section" class="nav-items">Skills</a>
+						<a href="#portfolio-section" class="nav-items">Portfolio</a>
+						<a href="#experienc-section" class="nav-items">Experience</a>
+						<a href="#contact-section" class="nav-items">Contact</a>
+					</nav>
+			</div>
+			<div class="bar">
+				<button class="menu-btn" onclick="ShowBar()">
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="sidebar" id="sidebar">
+						<a href="#about-section" class="nav-items">
+							About <i onclick="CloseSidebar()" class="fa fa-times"></i>
+						</a>
+						<a href="#service-section" class="nav-items">Services</a>
+						<a href="#skill-section" class="nav-items">Skills</a>
+						<a href="#portfolio-section" class="nav-items">Portfolio</a>
+						<a href="#experienc-section" class="nav-items">Experience</a>
+						<a href="#contact-section" class="nav-items">Contact</a>
+				</div>
+			</div>
+		</div>
+	</header>
+<!--	Header End    -->
+<!--	Hero-section Start  -->
+	<div class="hero-section">
+		<div class="hero">
+			<div class="hero-left">
+				<img src="images/hello3.svg" alt="Welcoming image">
+			</div>
+			<div class="hero-right">
+				<div class="hello">
+					<p>
+						HELLO!
+					</p>
+				</div>
+				<div class="hello-para">
+					I’m Walter Patterson
+				</div>
+				<div class="hello-des">
+					Web Developer & Mobile Application Developer
+				</div>
+				<div class="hello-icon">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-behance"></i></a>
+				</div>
+				<div class="hello-btn">
+					<button>
+						<p class="btn-txt">
+							Get In Touch <i class="fas fa-arrow-right"></i>
+						</p>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+<!--	Hero-section End   -->
+<!--   About section Start  -->
+	<section id="about-section">
+		<div class="about wrapper">
+			<div class="about-left">
+				<div class="about-intro">
+					<h1>Hello! I’m Walter Patterson.</h1>
+					<p>
+						I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.
+					</p>
+				</div>
+				<div class="about-info">
+					<ul class="span_1_of_3" id="info-title">
+						<li>Age:</li>
+						<li>Email:</li>
+						<li>Phone:</li>
+						<li>Skype:</li>
+						<li>Address:</li>
+						<li>Status:</li>
+					</ul>
+					<ul class="span_2_of_3" id="info-data">
+						<li>28</li>
+						<li>walter@company.com</li>
+						<li>+0718-111-0011</li>
+						<li>username@skype.com</li>
+						<li>New Delhi, India</li>
+						<li>Available</li>
+					</ul>
+				</div>
+			</div>
+			<div class="about-right">
+				<img src="images/avatar.jpg" alt="Walter Patterson's Photo">
+			</div>
+		</div>
+	</section>
+<!--   About section End  -->
+
+
+<!--   Service Section Start  -->
+	<section id="service-section">
+		<div class="service-txt">
+			<div class="service-title">
+				<h1>My Services</h1>
+			</div>
+			<div class="service-description">
+				<p>
+					I offer services fit for any website or app. I can quickly maximize timely deliverables for real-time schemas.
+				</p>
+			</div>
+		</div>
+		<div class="service-logo">
+			<div class="span_1_of_4" id="web-design-logo">
+				<img src="images/services/web-design.svg" alt="web-design-loro">
+				<h3>Web Design</h3>
+			</div>
+			<div class="span_1_of_4" id="graphic-design-logo">
+				<img src="images/services/graphic-design.svg" alt="graphic-design-logo">
+				<h3>Graphic Design</h3>
+			</div>
+			<div class="span_1_of_4" id="ui-logo">
+				<img src="images/services/ui-ux.svg" alt="ui-ux-logo">
+				<h3>UI/UX</h3>
+			</div>
+			<div class="span_1_of_4" id="app-development-logo">
+				<img src="images/services/app-development.svg" alt="app-development-logo">
+				<h3>App Development</h3>
+			</div>
+		</div>
+		
+	</section>
+	
+<!--   Service Section End  -->
+<!--   Skill Section Start -->
+	
+	<section id="skill-section">
+		<div class="skill-wrapper">
+			<div class="skill-txt">
+				<div class="skill-title">
+					<h1>My Skills</h1>
+				</div>
+				<div class="skill-description">
+					<p>
+						I am a quick learner and specialize in multitude of skills required for Web Application Development and Product Design.
+					</p>
+				</div>
+			</div>
+			<div class="skill-card">
+				<div class="span_1_of_2" id="card-left">
+					<div class="html">
+						<div class="html-txt">
+							<span class="txt-title">HTML5</span>
+							<span class="percentage"> 90%</span>
+						</div>
+						<div class="html-bar">
+							<div class="html-filled-bar"></div>
+						</div>
+					</div>
+					<div class="css">
+						<div class="css-txt">
+							<span class="txt-title">CSS3</span>
+							<span class="percentage"> 90%</span>
+						</div>
+						<div class="css-bar">
+							<div class="css-filled-bar"></div>
+						</div>
+					</div>
+					<div class="javascript">
+						<div class="javascript-txt">
+							<span class="txt-title">JavaScript</span>
+							<span class="percentage"> 80%</span>
+						</div>
+						<div class="javascript-bar">
+							<div class="javascript-filled-bar"></div>
+						</div>
+					</div>
+					<div class="react">
+						<div class="react-txt">
+							<span class="txt-title">React</span>
+							<span class="percentage"> 80%</span>
+						</div>
+						<div class="react-bar">
+							<div class="react-filled-bar"></div>
+						</div>
+					</div>
+				</div>
+				<div class="span_1_of_2" id="card-right">
+					<div class="php">
+						<div class="php-txt">
+							<span class="txt-title">PHP</span>
+							<span class="percentage"> 70%</span>
+						</div>
+						<div class="php-bar">
+							<div class="php-filled-bar"></div>
+						</div>
+					</div>
+					<div class="wordpress">
+						<div class="wordpress-txt">
+							<span class="txt-title">WordPress</span>
+							<span class="percentage"> 70%</span>
+						</div>
+						<div class="wordpress-bar">
+							<div class="wordpress-filled-bar"></div>
+						</div>
+					</div>
+					<div class="mysql">
+						<div class="mysql-txt">
+							<span class="txt-title">MySQL</span>
+							<span class="percentage"> 60%</span>
+						</div>
+						<div class="mysql-bar">
+							<div class="mysql-filled-bar"></div>
+						</div>
+					</div>
+					<div class="photoshop">
+						<div class="photoshop-txt">
+							<span class="txt-title">Photoshop</span>
+							<span class="percentage"> 60%</span>
+						</div>
+						<div class="photoshop-bar">
+							<div class="photoshop-filled-bar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--   Skill Section End  -->
+
+<!--   Portfolio Section Start  -->
+	<section id="portfolio-section">
+		<div class="portfolio-wrapper">
+			<div class="portfolio-txt">
+				<h1>
+					Portfolio
+				</h1>
+			</div>
+			<div class="portfolio-img">
+				<div class="img-row">
+				<div class="column">
+					<img src="images/portfolio/1.jpg" alt="portfolio-1">
+					<img src="images/portfolio/5-small.png" alt="porfolio-2">
+				</div>
+				<div class="column">
+					<img src="images/portfolio/2-small.png" alt="portfolio-3">
+					<img src="images/portfolio/6.jpg" alt="portfolio-4">
+				</div>
+				<div class="column">
+					<img src="images/portfolio/3.jpg" alt="portfolio-5">
+					<img src="images/portfolio/7-small.png" alt="portfolio-6">
+				</div>
+				<div class="column">
+					<img src="images/portfolio/4-small.png" alt="portfolio-7">
+					<img src="images/portfolio/8-small.png" alt="portfolio-8">
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+<!--   Portfolio Section End  -->
+
+<!--  Experience Section Start -->
+	<section id="experienc-section">
+		<div class="experience-wrapper">
+			<div class="experience-title">
+				<h1>Experience</h1>
+			</div>
+			<div class="experience-card">
+				<div class="card-row">
+					<div class="card-column">
+						<div class="card">
+							<div class="card-heading">
+								<div class="heading-txt">
+									<h3>UI/UX Design</h3>
+									<p>Designer Inc. <small>(2012-2014)</small></p>
+								</div>
+								<div class="heading-logo">
+									<img src="images/services/ui-ux.svg" alt="ui-ux-logo">
+								</div>
+							</div>
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus placeat repudiandae dolores voluptates non illo laboriosam quaerat, maxime similique quia suscipit qui tempore, dicta impedit debitis perferendis. Iste cupiditate earum assumenda nemo eos amet veritatis molestias. Minima error, neque consequatur, nostrum nam molestias rerum totam, laudantium adipisci iusto, placeat harum.
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-heading">
+								<div class="heading-txt">
+									<h3>Web Design</h3>
+									<p>Webbie LLC. <small>(2018-2020)</small></p>
+								</div>
+								<div class="heading-logo">
+									<img src="images/services/web-design.svg" alt="web-design-logo">
+								</div>
+							</div>
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus placeat repudiandae dolores voluptates non illo laboriosam quaerat, maxime similique quia suscipit qui tempore, dicta impedit debitis perferendis. Iste cupiditate earum assumenda nemo eos amet veritatis molestias. Minima error, neque consequatur, nostrum nam molestias rerum totam, laudantium adipisci iusto, placeat harum.
+							</div>
+						</div>
+					</div>
+					<div class="card-column">
+						<div class="card">
+							<div class="card-heading">
+								<div class="heading-txt">
+									<h3>App Development</h3>
+									<p>MakeMyApp LLC. <small>(2015-2018)</small></p>
+								</div>
+								<div class="heading-logo">
+									<img src="images/services/app-development.svg" alt="app-development-logo">
+								</div>
+							</div>
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus placeat repudiandae dolores voluptates non illo laboriosam quaerat, maxime similique quia suscipit qui tempore, dicta impedit debitis perferendis. Iste cupiditate earum assumenda nemo eos amet veritatis molestias. Minima error, neque consequatur, nostrum nam molestias rerum totam, laudantium adipisci iusto, placeat harum.
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-heading">
+								<div class="heading-txt">
+									<h3>Full Stack Development</h3>
+									<p>Code Inc. <small>(2020-2021)</small></p>
+								</div>
+								<div class="heading-logo">
+									<img src="images/services/full-stack.svg" alt="full-stack-logo">
+								</div>
+							</div>
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus placeat repudiandae dolores voluptates non illo laboriosam quaerat, maxime similique quia suscipit qui tempore, dicta impedit debitis perferendis. Iste cupiditate earum assumenda nemo eos amet veritatis molestias. Minima error, neque consequatur, nostrum nam molestias rerum totam, laudantium adipisci iusto, placeat harum.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--  Experience Section End -->
+
+
+<!--  Client Testimonial Section Start -->
+	<section id="testimonial-section">
+		<div class="testimonial-title">
+			<h1>Client Testimonial</h1>
+		</div>
+		<div class="testimonial-body">
+			<div class="t-row">
+				<div class="t-column">
+					<div class="t-card">
+						<div class="quote">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="client">
+							<div class="client-speech">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aliquam.
+						</div>
+						<div class="client-identity">
+							<div class="client-name">
+								<span class="name">
+									Aiyana
+								</span><br>
+								<span class="designation">
+									CEO/Web Design Company
+								</span>
+							</div>
+							<div class="client-img">
+								<img src="images/testimonials/client1.jpg" alt="Aiyana's Photo">
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="t-card">
+						<div class="quote">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="client">
+							<div class="client-speech">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aliquam.
+							</div>
+							<div class="client-identity">
+								<div class="client-name">
+									<span class="name">
+										Aiya
+									</span><br>
+									<span class="designation">
+										Web Developer
+									</span>
+								</div>
+								<div class="client-img">
+									<img src="images/testimonials/client3.jpg" alt="Aiya's Photo">
+								</div>
+						   	</div>
+						</div>
+					</div>
+					</div>
+				<div class="t-column">
+					<div class="t-card">
+						<div class="quote">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="client">
+							<div class="client-speech">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aliquam.
+							</div>
+							<div class="client-identity">
+								<div class="client-name">
+									<span class="name">
+										Alexander
+									</span><br>
+									<span class="designation">
+										CEO/Web Design Company
+									</span>
+								</div>
+								<div class="client-img">
+									<img src="images/testimonials/client2.jpg" alt="Alexander's Photo">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="t-card">
+						<div class="quote">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="client">
+							<div class="client-speech">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aliquam.
+							</div>
+							<div class="client-identity">
+								<div class="client-name">
+									<span class="name">
+										Braiden
+									</span><br>
+									<span class="designation">
+										Web Designer
+									</span>
+								</div>
+								<div class="client-img">
+									<img src="images/testimonials/client4.jpg" alt="Braiden's Photo">
+								</div>
+						   	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--  Client Testimonial Section End -->
+
+
+<!--  Contact Section Start -->
+	<section id="contact-section">
+		<div class="contact-wrapper">
+			<div class="contact-title">
+				<h1>Contact Me</h1>
+			</div>
+			<div class="contact-body">
+				<div class="contact-left">
+				<div class="contact-form">
+					<form action="#">
+						<label for="name">
+							Name
+						</label>
+						<input type="text" name="name" id="name">
+						<label for="email">
+							Email
+						</label>
+						<input type="text" name="email" id="email">
+						<label for="massage">
+							Massage
+						</label>
+						<input type="text" name="massage" id="massage">
+						<button class="btn">
+							<p>Send</p>
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="contact-right">
+				<div class="txt-head">
+					<h3>Let’s talk how I can help you!</h3>
+				</div>
+				<div class="txt-body">
+					<p>
+						If you like my work and want to avail my services then drop me a message using the contact form.
+							<br><br>
+						Or get in touch using my email, skype or my contact number. <br><br> See you!
+					</p>
+				</div>
+				<div class="txt-foot">
+					<br>
+					<div class="about-info">
+					<ul class="span_1_of_3" id="info-title">
+						<li>Email:</li>
+						<li>Skype:</li>
+						<li>Phone:</li>
+					</ul>
+					<ul class="span_2_of_3" id="info-data">
+						<li>walter@company.com</li>
+						
+						<li>username@skype.com</li>
+						<li>+0718-111-0011</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	</section>
+
+<!--  Contact Section End -->
+
+
+<!--  Footer Section Start -->
+	<footer class="footer-section">
+		<div class="footer-wrapper">
+			<div class="footer-title">
+				<h2>Walter Patterson</h2>
+			</div>
+			<div class="footer-subtitle">
+				Web Developer & Mobile Application Developer
+			</div>
+			<div class="hello-icon">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-behance"></i></a>
+				</div>
+			<div class="copywright-section">
+				<div class="copywright">
+					&copy; Super Folio. All rights reserved.
+				</div>
+				<div class="courtesy">
+					 Design - <a href="#">TemplateFlip</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!--  Footer Section End -->
+<!--Simple JavaScript Start -->
+	<script>
+		function ShowBar() {
+			document.getElementById("sidebar").style.display = "block";
+		}
+		
+		function CloseSidebar() {
+			document.getElementById("sidebar").style.display = "none";
+		}
+		
+	</script>
+<!--Simple JavaScript End -->
+</body>
+</html>
